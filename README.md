@@ -1,1 +1,1 @@
-# Vot
+# Quad equation solver
