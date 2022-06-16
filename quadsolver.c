@@ -3,7 +3,7 @@
 
 int main()
 {
-	float a, b, c, d, x1, x2, x;	
+	float a, b, c, d, x1, x2;	
 	printf("To find the root of your equation, enter the coefficients a, b and c: \n");
 	scanf("%f %f %f", &a, &b, &c);
 	d = b * b - 4 * a * c;
@@ -13,8 +13,8 @@ int main()
 	        printf("x1 = %f, x2 = %f", x1, x2);
 	}
         if(d == 0) { 
-		x = -b / (2 * a);
-	        printf("x = %f", x);
+		x1 = -b / (2 * a);
+	        printf("x = %f", x1);
 	}
 	if(d < 0) { 
 		printf("There are no roots");	
